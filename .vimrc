@@ -20,10 +20,8 @@ NeoBundle 'Shougo/vimshell'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'vim-scripts/wombat256.vim'
 NeoBundle 'vim-scripts/EnhCommentify.vim'
-"NeoBundle 'nathanaelkane/vim-indent-guides'
-"NeoBundle 'Yggdroot/indentLine'
-"NeoBundle 'vim-scripts/YankRing.vim'
-NeoBundle 'vim-scripts/AutoClose'
+NeoBundle 'vim-scripts/YankRing.vim'
+"NeoBundle 'vim-scripts/AutoClose'
 
 filetype plugin on
 filetype indent on
@@ -97,19 +95,16 @@ let g:quickrun_config['tex'] = { 'command' : 'platex', 'exec': ['%c %s', 'dvipdf
 "======NERDTree settings======
 let g:NERDTreeWinSize=25
 
-"======vim-indent-guides settings======
-"let g:indent_guides_enable_on_vim_startup=1
-"let g:indent_guides_start_level=2
-"let g:indent_guides_guide_size = 1
-
-"======indentLine settings======
-"let g:indentLine_color_gui = '#A4E57E'
+"======YankRing settings======
+"let g:yankring_history_dir = '~/.vim/'
+"let g:yankring_history_file = '.yankring_history'
 
 "======user-defined commands======
 command Vimrc :e ~/.vimrc
 command Gvimrc :e ~/.gvimrc
 command Vimfile :e ~/.vim
 command Nt :NERDTree
+command Emacs :e ~/.emacs.d/init.el
 "======key binds======
 
 "neocomplcache

@@ -1,6 +1,9 @@
 colorscheme wombat256
 
+if has('mac')
 set transparency=10
+"set imdisactivate
+endif
 
 "remove toolbar
 set guioptions-=T

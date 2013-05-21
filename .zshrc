@@ -55,3 +55,4 @@ preexec() {
 precmd() {
     echo -ne "\ek$(hostname|awk 'BEGIN{FS="."}{print $1}'):idle\e\\"
 }
+

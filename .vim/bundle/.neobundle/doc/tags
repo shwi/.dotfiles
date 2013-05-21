@@ -138,6 +138,7 @@
 <Plug>(unite_cursor_bottom)	unite.txt	/*<Plug>(unite_cursor_bottom)*
 <Plug>(unite_cursor_top)	unite.txt	/*<Plug>(unite_cursor_top)*
 <Plug>(unite_delete_backward_path)	unite.txt	/*<Plug>(unite_delete_backward_path)*
+<Plug>(unite_disable_max_candidates)	unite.txt	/*<Plug>(unite_disable_max_candidates)*
 <Plug>(unite_do_default_action)	unite.txt	/*<Plug>(unite_do_default_action)*
 <Plug>(unite_exit)	unite.txt	/*<Plug>(unite_exit)*
 <Plug>(unite_input_directory)	unite.txt	/*<Plug>(unite_input_directory)*
@@ -163,7 +164,6 @@
 <Plug>(unite_toggle_auto_preview)	unite.txt	/*<Plug>(unite_toggle_auto_preview)*
 <Plug>(unite_toggle_mark_all_candidates)	unite.txt	/*<Plug>(unite_toggle_mark_all_candidates)*
 <Plug>(unite_toggle_mark_current_candidate)	unite.txt	/*<Plug>(unite_toggle_mark_current_candidate)*
-<Plug>(unite_toggle_max_candidates)	unite.txt	/*<Plug>(unite_toggle_max_candidates)*
 <Plug>(unite_toggle_transpose_window)	unite.txt	/*<Plug>(unite_toggle_transpose_window)*
 <Plug>(vimshell_append_end)	vimshell.txt	/*<Plug>(vimshell_append_end)*
 <Plug>(vimshell_append_enter)	vimshell.txt	/*<Plug>(vimshell_append_enter)*
@@ -288,19 +288,6 @@ filename_complete	neocomplcache.txt	/*filename_complete*
 filename_include	neocomplcache.txt	/*filename_include*
 filetype-ref	ref.txt	/*filetype-ref*
 filetype-ref-{source-name}	ref.txt	/*filetype-ref-{source-name}*
-g:indentLine_bufNameExclude	indentLine.txt	/*g:indentLine_bufNameExclude*
-g:indentLine_char	indentLine.txt	/*g:indentLine_char*
-g:indentLine_color_gui	indentLine.txt	/*g:indentLine_color_gui*
-g:indentLine_color_term	indentLine.txt	/*g:indentLine_color_term*
-g:indentLine_enabled	indentLine.txt	/*g:indentLine_enabled*
-g:indentLine_fileType	indentLine.txt	/*g:indentLine_fileType*
-g:indentLine_fileTypeExclude	indentLine.txt	/*g:indentLine_fileTypeExclude*
-g:indentLine_first_char	indentLine.txt	/*g:indentLine_first_char*
-g:indentLine_indentLevel	indentLine.txt	/*g:indentLine_indentLevel*
-g:indentLine_maxLines	indentLine.txt	/*g:indentLine_maxLines*
-g:indentLine_noConcealCursor	indentLine.txt	/*g:indentLine_noConcealCursor*
-g:indentLine_showFirstIndentLevel	indentLine.txt	/*g:indentLine_showFirstIndentLevel*
-g:loaded_indentLine	indentLine.txt	/*g:loaded_indentLine*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
 g:neobundle#default_site	neobundle.txt	/*g:neobundle#default_site*
 g:neobundle#enable_tail_path	neobundle.txt	/*g:neobundle#enable_tail_path*
@@ -540,6 +527,7 @@ i_<Plug>(unite_delete_backward_char)	unite.txt	/*i_<Plug>(unite_delete_backward_
 i_<Plug>(unite_delete_backward_line)	unite.txt	/*i_<Plug>(unite_delete_backward_line)*
 i_<Plug>(unite_delete_backward_path)	unite.txt	/*i_<Plug>(unite_delete_backward_path)*
 i_<Plug>(unite_delete_backward_word)	unite.txt	/*i_<Plug>(unite_delete_backward_word)*
+i_<Plug>(unite_disable_max_candidates)	unite.txt	/*i_<Plug>(unite_disable_max_candidates)*
 i_<Plug>(unite_do_default_action)	unite.txt	/*i_<Plug>(unite_do_default_action)*
 i_<Plug>(unite_exit)	unite.txt	/*i_<Plug>(unite_exit)*
 i_<Plug>(unite_input_directory)	unite.txt	/*i_<Plug>(unite_input_directory)*
@@ -561,7 +549,6 @@ i_<Plug>(unite_skip_next_line)	unite.txt	/*i_<Plug>(unite_skip_next_line)*
 i_<Plug>(unite_skip_previous_line)	unite.txt	/*i_<Plug>(unite_skip_previous_line)*
 i_<Plug>(unite_toggle_auto_preview)	unite.txt	/*i_<Plug>(unite_toggle_auto_preview)*
 i_<Plug>(unite_toggle_mark_current_candidate)	unite.txt	/*i_<Plug>(unite_toggle_mark_current_candidate)*
-i_<Plug>(unite_toggle_max_candidates)	unite.txt	/*i_<Plug>(unite_toggle_max_candidates)*
 i_<Plug>(unite_toggle_transpose_window)	unite.txt	/*i_<Plug>(unite_toggle_transpose_window)*
 i_<Plug>(vimshell_another_delete_backward_char)	vimshell.txt	/*i_<Plug>(vimshell_another_delete_backward_char)*
 i_<Plug>(vimshell_clear)	vimshell.txt	/*i_<Plug>(vimshell_clear)*
@@ -594,15 +581,6 @@ i_<Plug>(vimshell_zsh_complete)	vimshell.txt	/*i_<Plug>(vimshell_zsh_complete)*
 i_CTRL-G_S	surround.txt	/*i_CTRL-G_S*
 i_CTRL-G_s	surround.txt	/*i_CTRL-G_s*
 include_complete	neocomplcache.txt	/*include_complete*
-indentLine-changelog	indentLine.txt	/*indentLine-changelog*
-indentLine-commands	indentLine.txt	/*indentLine-commands*
-indentLine-config	indentLine.txt	/*indentLine-config*
-indentLine-contents	indentLine.txt	/*indentLine-contents*
-indentLine-credits	indentLine.txt	/*indentLine-credits*
-indentLine-faq	indentLine.txt	/*indentLine-faq*
-indentLine-introduction	indentLine.txt	/*indentLine-introduction*
-indentLine-variables	indentLine.txt	/*indentLine-variables*
-indentLine.txt	indentLine.txt	/*indentLine.txt*
 ku-ref	ku-ref.txt	/*ku-ref*
 ku-ref-action-default	ku-ref.txt	/*ku-ref-action-default*
 ku-ref-action-open	ku-ref.txt	/*ku-ref-action-open*

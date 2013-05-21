@@ -790,12 +790,12 @@ OPTIONS 					*neobundle-options*
 		defined:
 
 			on_source		*neobundle-hooks-on_source*
-			Called after a bundle is loaded. It is useful for plugin
-			initialization in lazy bundles.
-			Note: In Vim initializing, calling on_source hooks are
+			Called before scripts are sourced. It is useful for
+			plugin initialization in lazy bundles.
+			Note: In Vim initializing, calling the hooks are
 			delayed until |VimEnter|.
 			Note: To re-call on_source hook when reloading .vimrc,
-			you must call on_source hook in end of .vimrc.
+			you must call the hook in end of .vimrc.
 
 					*neobundle-options-type__protocol*
 		type__protocol		(String)
@@ -1166,8 +1166,24 @@ A:
 	Unite -log neobundle/update
 <
 
+Q: neobundle.vim is not worked in debian/Ubuntu Linux...
+A: Did you use "debian.vim"? "debian.vim" changes 'runtimepath'.
+So it conflicts with neobundle. You should not use "debian.vim".
+
 ==============================================================================
 CHANGELOG					*neobundle-changelog*
+
+2013-05-20
+- Improved reinstall behavior.
+- Fixed neobundle#util#redraw_echo().
+- Changed on_source timing.
+
+2013-05-19
+- Fixed neobundle#source().
+- Fixed :NeoBundleClean behavior.
+
+2013-05-17
+- Fixed resource leak.
 
 2013-05-13
 - Fixed add bundle behavior.
